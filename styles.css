@@ -1,44 +1,49 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f0f0f0;
 }
 
 header {
-    background-color: #005a9c;
+    background-color: #002664;
     color: white;
-    text-align: center;
-    padding: 20px 0;
-}
-
-header h1 {
-    margin: 0;
-}
-
-#bio img {
-    display: block;
-    max-width: 200px;
-    margin: 20px auto;
-    border-radius: 50%;
-}
-
-#bio,
-#projects,
-#publications {
-    background-color: white;
-    margin: 20px auto;
-    width: 80%;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.university-logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #333;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 footer {
     text-align: center;
-    padding: 20px 0;
-    background-color: #ddd;
-}
-
-footer p {
-    margin: 0;
+    padding: 10px;
+    background-color: #333;
+    color: white;
 }
