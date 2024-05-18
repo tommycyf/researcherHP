@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #005a9c;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#bio img {
+    display: block;
+    max-width: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+#bio,
+#projects,
+#publications {
+    background-color: white;
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ddd;
+}
+
+footer p {
+    margin: 0;
+}
